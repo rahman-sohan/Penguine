@@ -24,22 +24,6 @@ export default function Home() {
             style={{ animationDelay: "0.2s" }}
           ></div>
         </div>
-
-        <div className="inline-block bg-gray-50 rounded-lg p-6 border border-gray-200">
-          <p className="text-gray-700 text-sm mb-2">
-            Get notified when we launch
-          </p>
-          <div className="flex flex-col sm:flex-row gap-3 max-w-md mx-auto">
-            <input
-              type="email"
-              placeholder="Enter your email"
-              className="flex-1 px-4 py-3 rounded-lg bg-white border border-gray-300 text-gray-900 placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-gray-500 focus:border-transparent"
-            />
-            <button className="px-6 py-3 bg-gray-900 text-white rounded-lg font-semibold hover:bg-gray-800 transition-all duration-200">
-              Notify Me
-            </button>
-          </div>
-        </div>
       </div>
     </div>
   );
