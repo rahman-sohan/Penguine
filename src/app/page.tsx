@@ -9,9 +9,9 @@ export default function Home() {
           <div className="w-32 h-1 bg-gray-900 mx-auto rounded-full"></div>
         </div>
 
-        <p className="text-xl md:text-2xl text-gray-600 mb-8 max-w-2xl mx-auto leading-relaxed">
+        {/* <p className="text-xl md:text-2xl text-gray-600 mb-8 max-w-2xl mx-auto leading-relaxed">
           এখানে ডেইলি একটা মেসেজ দিব, ইচ্ছা হলে পড়িও নাহলে ইগনোর করো !
-        </p>
+        </p> */}
 
         <div className="flex justify-center space-x-4 mb-12">
           <div className="w-3 h-3 bg-gray-400 rounded-full animate-bounce"></div>
